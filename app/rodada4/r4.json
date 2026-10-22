@@ -1,0 +1,35 @@
+{
+  "consulta": {
+    "url": "https://solara.doctor/app/consulta/gravando?id=70a73fad-52e0-4664-a347-0b887778c20a",
+    "texto": "Solara\nSolicitando microfone…\nPreparando o microfone\n\nAceite a solicitação de acesso ao microfone no seu navegador. Nada é gravado até você começar.",
+    "botoes": []
+  },
+  "pacientes": {
+    "url": "https://solara.doctor/app/pacientes",
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nPacientes\n1 no total · 1 ativos\nNovo paciente\nOrdenar por\nMais recentes\nNome (A-Z)\nNº de consultas\nR\nR\n? anos · Particular\n22/10\nPacientes\nR\nR\nR\n? anos\nFeminino\n—\nParticular\nLGPD · dados criptografados\nEditar\nGerar laudo\nNova consulta\nPA\n— mmHg\núltima: 22/10\nFC\n— bpm\nem repouso\nSPO₂\n— %\nem ar ambiente\nPESO\n— kg\nIMC —\nVISITAS\n1\ndesde 2026\nTimeline\n1\nDocumentos\n0\nLaudos\nMedicações\n0\nPrimeira consulta\n22 Out 26\nPrimeira consulta\n—\nCONTATO\nALERGIAS\nNenhuma registrada\nCONDIÇÕES\nNenhuma registrada\nMEDICAÇÕES\nNenhuma registrada",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Novo paciente",
+      "R R ? anos · Particular 22/10",
+      "Editar",
+      "Gerar laudo",
+      "PA — mmHg última: 22/10",
+      "FC — bpm em repouso",
+      "SPO₂ — % em ar ambiente",
+      "PESO — kg IMC —",
+      "Timeline 1",
+      "Documentos 0",
+      "Laudos",
+      "Medicações 0",
+      "Primeira consulta 22 Out 26 Primeira consulta —"
+    ]
+  }
+}

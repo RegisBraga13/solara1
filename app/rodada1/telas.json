@@ -1,0 +1,369 @@
+[
+  {
+    "pedido": "https://solara.doctor/app",
+    "final": "https://solara.doctor/app",
+    "titulo": "Consultas · Solara Health",
+    "cabecalhos": [
+      "H1 Bom dia, Dr. Francisco",
+      "H3 Pronta para a próxima consulta?",
+      "H2 Consultas recentes"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "Agenda",
+      "Iniciar consulta",
+      "Todas 0",
+      "Primeira consulta 0",
+      "Evolução 0"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "Buscar por paciente…",
+        "required": false
+      }
+    ],
+    "landmarks": [
+      "header",
+      "nav",
+      "main"
+    ]
+  },
+  {
+    "pedido": "https://solara.doctor/app/agenda",
+    "final": "https://solara.doctor/app/agenda",
+    "titulo": "Agenda · Solara Health",
+    "cabecalhos": [
+      "H2 Agenda",
+      "H1 Outubro 2026"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "Nova consulta",
+      "Mês anterior",
+      "Próximo mês",
+      "27",
+      "28",
+      "29",
+      "30",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "31",
+      "Hoje",
+      "Anterior",
+      "Próximo",
+      "Dia",
+      "Semana",
+      "Mês",
+      "Lista",
+      "Nova"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Primeira consulta\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Retorno\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Teleconsulta\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Procedimento\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Bloqueio / Pausa\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Reunião interna\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Confirmada\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Pendente\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "Realizada\n0",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": null,
+        "label": "No-show\n0",
+        "required": false
+      }
+    ],
+    "landmarks": [
+      "header",
+      "nav",
+      "aside",
+      "main"
+    ]
+  },
+  {
+    "pedido": "https://solara.doctor/app/pacientes",
+    "final": "https://solara.doctor/app/pacientes",
+    "titulo": "Pacientes · Solara Health",
+    "cabecalhos": [
+      "H1 Nenhum paciente cadastrado"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "+ Novo paciente"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [],
+    "landmarks": [
+      "header",
+      "nav"
+    ]
+  },
+  {
+    "pedido": "https://solara.doctor/app/modelos",
+    "final": "https://solara.doctor/app/modelos",
+    "titulo": "Modelos · Solara Health",
+    "cabecalhos": [
+      "H1 Modelos",
+      "H1 Anamnese — Clínica Médica",
+      "H3 SEM CONTEÚDO"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "Novo modelo",
+      "Anamnese — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Anamnese PADRÃO Atualizado 6 meses atrás",
+      "Evolução — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Evolução (SOAP) PADRÃO Atualizado 6 meses atrás",
+      "Remover como padrão",
+      "Duplicar",
+      "Editar modelo"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "Buscar modelos...",
+        "required": false
+      }
+    ],
+    "landmarks": [
+      "header",
+      "nav"
+    ]
+  },
+  {
+    "pedido": "https://solara.doctor/app/ajustes",
+    "final": "https://solara.doctor/app/ajustes",
+    "titulo": "Ajustes · Solara Health",
+    "cabecalhos": [
+      "H1 Ajustes"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "Salvar alterações"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "NOME COMPLETO",
+        "required": false
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": null,
+        "label": "CRM",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "Número do CRM",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "ESPECIALIDADE",
+        "required": false
+      }
+    ],
+    "landmarks": [
+      "header",
+      "nav",
+      "main",
+      "header"
+    ]
+  },
+  {
+    "pedido": "https://solara.doctor/app/consulta/nova",
+    "final": "https://solara.doctor/app/consulta/nova",
+    "titulo": "Nova consulta · Solara Health",
+    "cabecalhos": [
+      "H1 Nova consulta",
+      "H2 Paciente",
+      "H2 Tipo de documento",
+      "H2 Resumo"
+    ],
+    "botoes": [
+      "Notificações",
+      "FR",
+      "Voltar",
+      "Iniciar gravação",
+      "Salvar como novo paciente A ficha é criada junto com a consulta e fica disponíve",
+      "Primeira consulta Estrutura completa: HPMA, revisão de sistemas, antecedentes, h",
+      "Evolução Retorno ou acompanhamento. Formato SOAP — subjetivo, objetivo, avaliaçã"
+    ],
+    "links": [
+      "/app",
+      "/app/agenda",
+      "/app/pacientes",
+      "/app/modelos",
+      "/app/ajustes",
+      "/app/consulta/nova"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "Nome do paciente",
+        "required": false
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": null,
+        "label": "Idade",
+        "required": false
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "name": null,
+        "label": "Sexo",
+        "required": false
+      }
+    ],
+    "landmarks": [
+      "header",
+      "nav",
+      "main",
+      "nav",
+      "header",
+      "aside"
+    ]
+  }
+]

@@ -1,0 +1,447 @@
+[
+  {
+    "passo": "home_menu_iniciar",
+    "ok": true,
+    "url": "https://solara.doctor/app",
+    "emCamada": true,
+    "texto": "Presencial\nTeleconsulta",
+    "botoes": [
+      "Presencial",
+      "Teleconsulta"
+    ],
+    "campos": []
+  },
+  {
+    "passo": "home_notificacoes",
+    "ok": true,
+    "url": "https://solara.doctor/app",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nBom dia, Dr. Francisco\n\nQuinta-feira, 22 de outubro · nenhuma consulta agendada hoje.\n\nAgenda\nNova consulta\nHOJE\n0\nsem agendamentos\nESTA SEMANA\n0\nnenhuma consulta ainda\nTEMPO ECONOMIZADO\n0h 0m\nem documentação\nDURAÇÃO MÉDIA\n—\nsem dados ainda\nPronta para a próxima consulta?\n\nAbra uma gravação e receba a anamnese estruturada em minutos. O áudio é apagado imediatamente após a transcrição.\n\nIniciar consulta\nConsultas recentes\nTodas\n0\nPrimeira consulta\n0\nEvolução\n0\nPACIENTE\nQUEIXA\nDOCUMENTO\nDATA\nVocê ainda não gravou nenhuma consulta\n\nClique em Nova consulta no topo para iniciar. A primeira gravação leva cerca de 2 minutos para configurar.",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Iniciar consulta",
+      "Todas 0",
+      "Primeira consulta 0",
+      "Evolução 0"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Buscar por paciente…"
+      }
+    ]
+  },
+  {
+    "passo": "home_menu_usuario",
+    "ok": false,
+    "erro": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'FR' }).first()\u001b[22m\n"
+  },
+  {
+    "passo": "agenda_dia",
+    "ok": true,
+    "url": "https://solara.doctor/app/agenda",
+    "emCamada": true,
+    "texto": "Nova consultaQuinta, 22 Out · 11:20TipoPrimeira consultaRetornoTeleconsultaProcedimentoBloqueio / PausaReunião internaPaciente *QuandoDataHorárioDuração20min40min1h1h 302hLocalConsultório 1Consultório 2Sala de procedimentosSala de reuniõesOnline (teleconsulta)StatusConfirmadaPendenteRealizadaNo-showObservaçõesCancelarCriar consulta",
+    "botoes": [],
+    "campos": []
+  },
+  {
+    "passo": "agenda_mes",
+    "ok": true,
+    "url": "https://solara.doctor/app/agenda",
+    "emCamada": true,
+    "texto": "Nova consultaQuinta, 22 Out · 11:20TipoPrimeira consultaRetornoTeleconsultaProcedimentoBloqueio / PausaReunião internaPaciente *QuandoDataHorárioDuração20min40min1h1h 302hLocalConsultório 1Consultório 2Sala de procedimentosSala de reuniõesOnline (teleconsulta)StatusConfirmadaPendenteRealizadaNo-showObservaçõesCancelarCriar consulta",
+    "botoes": [],
+    "campos": []
+  },
+  {
+    "passo": "agenda_lista",
+    "ok": true,
+    "url": "https://solara.doctor/app/agenda",
+    "emCamada": true,
+    "texto": "Nova consultaQuinta, 22 Out · 11:20TipoPrimeira consultaRetornoTeleconsultaProcedimentoBloqueio / PausaReunião internaPaciente *QuandoDataHorárioDuração20min40min1h1h 302hLocalConsultório 1Consultório 2Sala de procedimentosSala de reuniõesOnline (teleconsulta)StatusConfirmadaPendenteRealizadaNo-showObservaçõesCancelarCriar consulta",
+    "botoes": [],
+    "campos": []
+  },
+  {
+    "passo": "agenda_nova_dialogo",
+    "ok": true,
+    "url": "https://solara.doctor/app/agenda",
+    "emCamada": true,
+    "texto": "Nova consultaQuinta, 22 Out · 11:20TipoPrimeira consultaRetornoTeleconsultaProcedimentoBloqueio / PausaReunião internaPaciente *QuandoDataHorárioDuração20min40min1h1h 302hLocalConsultório 1Consultório 2Sala de procedimentosSala de reuniõesOnline (teleconsulta)StatusConfirmadaPendenteRealizadaNo-showObservaçõesCancelarCriar consulta",
+    "botoes": [],
+    "campos": []
+  },
+  {
+    "passo": "agenda_nova_consulta",
+    "ok": true,
+    "url": "https://solara.doctor/app/agenda",
+    "emCamada": true,
+    "texto": "Nova consultaQuinta, 22 Out · 11:20TipoPrimeira consultaRetornoTeleconsultaProcedimentoBloqueio / PausaReunião internaPaciente *QuandoDataHorárioDuração20min40min1h1h 302hLocalConsultório 1Consultório 2Sala de procedimentosSala de reuniõesOnline (teleconsulta)StatusConfirmadaPendenteRealizadaNo-showObservaçõesCancelarCriar consulta",
+    "botoes": [],
+    "campos": []
+  },
+  {
+    "passo": "pacientes_novo",
+    "ok": true,
+    "url": "https://solara.doctor/app/pacientes",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nNP\nNenhum paciente cadastrado\n\nSeus pacientes aparecem aqui com prontuário, timeline e documentos. Crie o primeiro cadastro para começar.\n\n+ Novo paciente\n?\nNovo paciente\nPreencha o cadastro. Você poderá editar depois.\n✕\n1\nCadastro\n2\nContato\n3\nClínico\nIDENTIFICAÇÃO\nNome completo\n*\nIdade\n*\nSexo\nFeminino\nMasculino\nOutro\nNascimento\nCPF\nConvênio\nParticular\nUnimed\nBradesco Saúde\nSulAmérica\nAmil\nPorto Seguro\nNotreDame Intermédica\nHapvida\nSUS\nAVATAR\nRascunho local\nCancelar\nCriar paciente",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "+ Novo paciente",
+      "✕",
+      "1 Cadastro",
+      "2 Contato",
+      "3 Clínico",
+      "Cancelar",
+      "Criar paciente"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Maria Silva Fernandes"
+      },
+      {
+        "tag": "input",
+        "type": "number",
+        "label": "45"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "label": null,
+        "opcoes": [
+          "Feminino",
+          "Masculino",
+          "Outro"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "03/07/1980"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "000.000.000-00"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "label": null,
+        "opcoes": [
+          "Particular",
+          "Unimed",
+          "Bradesco Saúde",
+          "SulAmérica",
+          "Amil",
+          "Porto Seguro",
+          "NotreDame Intermédica",
+          "Hapvida",
+          "SUS"
+        ]
+      }
+    ]
+  },
+  {
+    "passo": "modelo_anamnese_padrao",
+    "ok": false,
+    "erro": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^Anamnese\\s*PADRÃO/).first()\u001b[22m\n"
+  },
+  {
+    "passo": "modelo_evolucao_soap",
+    "ok": true,
+    "url": "https://solara.doctor/app/modelos",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nDuplicar\nVer detalhes\nModelo padrão da Solara — usado automaticamente quando você não definir um modelo próprio para Evolução.\nEvolução (SOAP)\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Novo modelo",
+      "Anamnese — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Anamnese PADRÃO Atualizado 6 meses atrás",
+      "Evolução — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Evolução (SOAP) PADRÃO Atualizado 6 meses atrás",
+      "Duplicar",
+      "Ver detalhes"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Buscar modelos..."
+      }
+    ]
+  },
+  {
+    "passo": "modelo_evolucao_cm",
+    "ok": true,
+    "url": "https://solara.doctor/app/modelos",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Evolução. Todas as próximas consultas desse tipo usarão ele.\nEvolução — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Novo modelo",
+      "Anamnese — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Anamnese PADRÃO Atualizado 6 meses atrás",
+      "Evolução — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Evolução (SOAP) PADRÃO Atualizado 6 meses atrás",
+      "Remover como padrão",
+      "Duplicar",
+      "Editar modelo"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Buscar modelos..."
+      }
+    ]
+  },
+  {
+    "passo": "modelo_editar",
+    "ok": true,
+    "url": "https://solara.doctor/app/modelos",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Anamnese. Todas as próximas consultas desse tipo usarão ele.\nAnamnese — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.\n\nEditar modelo\nDefina como o Claude deve redigir a partir da transcrição da consulta.\n✕\nNome do modelo\n*\nCategoria\nAnamnese\nEvolução\nAtestados\nReceitas\nLaudos\nSolicitações\nEncaminhamentos\nOutros\nInstruções ao modelo (opcional)\nDefina as regras e o estilo que o Claude deve seguir ao gerar este documento.\nInserir variável\nSe deixado em branco, a Solara usa o prompt padrão para anamnese.\nConfiguração avançada\nPRÉVIA AO VIVO\nNão salva\nGerar prévia\nGera o documento com a configuração atual usando uma transcrição de exemplo (consulta de dor lombar).\nVer transcrição usada\nClique em Gerar prévia\npara ver como o documento sairá com a configuração atual.\nDica\n\nA prévia usa uma transcrição de exemplo para simular o resultado. Nada é salvo até você clicar em “Salvar alterações”.\n\nExcluir modelo\nCancelar\nSalvar alterações",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Novo modelo",
+      "Anamnese — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Anamnese PADRÃO Atualizado 6 meses atrás",
+      "Evolução — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Evolução (SOAP) PADRÃO Atualizado 6 meses atrás",
+      "Remover como padrão",
+      "Duplicar",
+      "Editar modelo",
+      "✕",
+      "Inserir variável",
+      "Negrito",
+      "Itálico",
+      "Lista",
+      "Linha divisória",
+      "Variável",
+      "Gerar prévia",
+      "Excluir modelo",
+      "Cancelar",
+      "Salvar alterações"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Buscar modelos..."
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Ex: Receita simples"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "label": null,
+        "opcoes": [
+          "Anamnese",
+          "Evolução",
+          "Atestados",
+          "Receitas",
+          "Laudos",
+          "Solicitações",
+          "Encaminhamentos",
+          "Outros"
+        ]
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "label": "Você é um assistente clínico que redige... (orientações para o Claude)"
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "label": "Use {patient_context} e {transcript} onde o contexto do paciente e a transcrição devem aparecer."
+      }
+    ]
+  },
+  {
+    "passo": "modelo_novo",
+    "ok": true,
+    "url": "https://solara.doctor/app/modelos",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Anamnese. Todas as próximas consultas desse tipo usarão ele.\nAnamnese — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.\n\nNovo modelo\nUse @variáveis para campos automáticos. Comece cada seção com ## Título.\n✕\nNome do modelo\n*\nCategoria\nAnamnese\nEvolução\nAtestados\nReceitas\nLaudos\nSolicitações\nEncaminhamentos\nOutros\nConteúdo do modelo\nVariáveis disponíveis: @paciente.nome, @paciente.cpf, @paciente.idade, @paciente.convenio, @medico.nome, @medico.crm, @data.hoje. Use @qualquer_nome para campos preenchidos manualmente (ex.: @cid, @dias).\nCancelar\nCriar modelo",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Novo modelo",
+      "Anamnese — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Anamnese PADRÃO Atualizado 6 meses atrás",
+      "Evolução — Clínica Médica EM USO Atualizado 3 dias atrás",
+      "Evolução (SOAP) PADRÃO Atualizado 6 meses atrás",
+      "Remover como padrão",
+      "Duplicar",
+      "Editar modelo",
+      "✕",
+      "Cancelar",
+      "Criar modelo"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Buscar modelos..."
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Ex: Receita simples"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "label": null,
+        "opcoes": [
+          "Anamnese",
+          "Evolução",
+          "Atestados",
+          "Receitas",
+          "Laudos",
+          "Solicitações",
+          "Encaminhamentos",
+          "Outros"
+        ]
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "label": "# Atestado Médico\n\n## Identificação\nAtesto, para os devidos fins, que @paciente.nome, portador(a) do CPF @paciente.cpf, esteve sob meus cuidados em @data.hoje.\n\n## Recomendação\nNecessita de afastamento de suas atividades por @dias dias, por motivo de saúde (CID @cid).\n\n## Assinatura\n@medico.nome — CRM @medico.crm"
+      }
+    ]
+  },
+  {
+    "passo": "nova_consulta_evolucao",
+    "ok": false,
+    "erro": "locator.click: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText(/^Evolução/).first()\u001b[22m\n\u001b[2m    - locator resolved to <span>Evolução</span>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n"
+  },
+  {
+    "passo": "ajustes_crm_uf",
+    "ok": true,
+    "url": "https://solara.doctor/app/ajustes",
+    "emCamada": false,
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nAjustes\n\nInformações do seu perfil.\n\nPerfil\nInformações básicas vinculadas à sua conta.\nNOME COMPLETO\nE-MAIL\nregisbragasantos@gmail.com\nCRM\nCRM/\nUF\nAC\nAL\nAM\nAP\nBA\nCE\nDF\nES\nGO\nMA\nMG\nMS\nMT\nPA\nPB\nPE\nPI\nPR\nRJ\nRN\nRO\nRR\nRS\nSC\nSE\nSP\nTO\nESPECIALIDADE\nSalvar alterações",
+    "botoes": [
+      "Solara",
+      "Consultas",
+      "Agenda",
+      "Pacientes",
+      "Modelos",
+      "Ajustes",
+      "Nova consulta",
+      "Notificações",
+      "FR",
+      "Salvar alterações"
+    ],
+    "campos": [
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "NOME COMPLETO"
+      },
+      {
+        "tag": "select",
+        "type": "select-one",
+        "label": "CRM",
+        "opcoes": [
+          "UF",
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO"
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "Número do CRM"
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "label": "ESPECIALIDADE"
+      }
+    ]
+  }
+]

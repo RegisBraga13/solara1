@@ -1,0 +1,430 @@
+{
+  "editor": {
+    "textareas": [
+      {
+        "placeholder": "Você é um assistente clínico que redige... (orientações para o Claude)",
+        "valor": "Você é um assistente clínico que redige anamneses de Clínica Médica em português do Brasil a partir da transcrição de uma consulta entre médico e paciente.\n\nPrincípios: Linguagem clínica formal em 3ª pessoa. Use APENAS dados da transcrição e do contexto do paciente — nunca invente sintomas, antecedentes, medicações, doses ou alergias; informação ausente vira \"Não referido na consulta.\" ou é omitida. Preserve nomes de medicamentos, dosagens e posologias exatamente. Apresente hipóteses com justificativa breve, sem diagnóstico definitivo; use CID-10 só quando explícito ou inequívoco. Saída somente em Markdown (cabeçalhos ##, listas com \"- \", **negrito**, *itálico*) — sem HTML, tabelas ou blocos de código.\n\nÊnfase de Clínica Médica:\n- Faça abordagem sindrômica da queixa principal e mapeie todas as comorbidades crônicas (HAS, DM2, dislipidemia, DRC, DPOC) e seu controle atual.\n- Reconcilie a polifarmácia em busca de interações, duplicidades e adesão; registre rastreios e vacinação conforme idade/sexo se citados.\n- Anote dados antropométricos (peso, IMC, circunferência abdominal) e sinais vitais completos.\n\nEstrutura obrigatória (cabeçalhos H2, nesta ordem):\n## Identificação\n## Queixa Principal\n## História da Doença Atual\n## Medicações em Uso\n## Antecedentes Pessoais\n## Antecedentes Familiares\n## Hábitos e Estilo de Vida\n## Alergias\n## Revisão de Sistemas\n## Exame Físico\n## Hipótese Diagnóstica\n## Conduta\n\nPontos de atenção: a \"Revisão de Sistemas\" é central aqui — percorra os principais aparelhos buscando queixas não declaradas. \"Medicações em Uso\" como lista \"- Nome — dose — desde quando\". Seção sem dados → \"Não referido na consulta.\""
+      },
+      {
+        "placeholder": "Use {patient_context} e {transcript} onde o contexto do paciente e a transcrição devem aparecer.",
+        "valor": ""
+      }
+    ],
+    "inputs": [],
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Anamnese. Todas as próximas consultas desse tipo usarão ele.\nAnamnese — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.\n\nEditar modelo\nDefina como o Claude deve redigir a partir da transcrição da consulta.\n✕\nNome do modelo\n*\nCategoria\nAnamnese\nEvolução\nAtestados\nReceitas\nLaudos\nSolicitações\nEncaminhamentos\nOutros\nInstruções ao modelo (opcional)\nDefina as regras e o estilo que o Claude deve seguir ao gerar este documento.\nInserir variável\nSe deixado em branco, a Solara usa o prompt padrão para anamnese.\nConfiguração avançada\nFormato da pergunta (opcional)\nControla como a transcrição é injetada na pergunta ao Claude. Em branco usa o formato padrão.\nPRÉVIA AO VIVO\nNão salva\nGerar prévia\nGera o documento com a configuração atual usando uma transcrição de exemplo (consulta de dor lombar).\nVer transcrição usada\n\n[Médico] João, conta o que tá te incomodando. [Paciente] Doutor, dor nas costas, na parte de baixo. Faz uns 6 meses, mas piorou nos últimos 2. [Médico] Irradia pra alguma perna? [Paciente] Às vezes desce pela perna direita até o joelho. [Médico] Formigamento, fraqueza? [Paciente] Formigamento sim, fraqueza não. [Médico] Como é a sua rotina? [Paciente] Trabalho 10 horas por dia sentado, programador. Não faço atividade física. [Médico] Já tomou alguma coisa? [Paciente] Dipirona, ibuprofeno, melhora um pouco mas volta. [Médico] Algum trauma, queda? [Paciente] Não. [Médico] Vamos examinar. Lasègue à direita positivo a 60 graus. Vou pedir uma ressonância da coluna lombar.\n\nClique em Gerar prévia\npara ver como o documento sairá com a configuração atual.\nDica\n\nA prévia usa uma transcrição de exemplo para simular o resultado. Nada é salvo até você clicar em “Salvar alterações”.\n\nExcluir modelo\nCancelar\nSalvar alterações"
+  },
+  "previa": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Anamnese. Todas as próximas consultas desse tipo usarão ele.\nAnamnese — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos.\n\nEditar modelo\nDefina como o Claude deve redigir a partir da transcrição da consulta.\n✕\nNome do modelo\n*\nCategoria\nAnamnese\nEvolução\nAtestados\nReceitas\nLaudos\nSolicitações\nEncaminhamentos\nOutros\nInstruções ao modelo (opcional)\nDefina as regras e o estilo que o Claude deve seguir ao gerar este documento.\nInserir variável\nSe deixado em branco, a Solara usa o prompt padrão para anamnese.\nConfiguração avançada\nFormato da pergunta (opcional)\nControla como a transcrição é injetada na pergunta ao Claude. Em branco usa o formato padrão.\nPRÉVIA AO VIVO\nNão salva\nRegenerar\nGera o documento com a configuração atual usando uma transcrição de exemplo (consulta de dor lombar).\nVer transcrição usada\n\n[Médico] João, conta o que tá te incomodando. [Paciente] Doutor, dor nas costas, na parte de baixo. Faz uns 6 meses, mas piorou nos últimos 2. [Médico] Irradia pra alguma perna? [Paciente] Às vezes desce pela perna direita até o joelho. [Médico] Formigamento, fraqueza? [Paciente] Formigamento sim, fraqueza não. [Médico] Como é a sua rotina? [Paciente] Trabalho 10 horas por dia sentado, programador. Não faço atividade física. [Médico] Já tomou alguma coisa? [Paciente] Dipirona, ibuprofeno, melhora um pouco mas volta. [Médico] Algum trauma, queda? [Paciente] Não. [Médico] Vamos examinar. Lasègue à direita positivo a 60 graus. Vou pedir uma ressonância da coluna lombar.\n\n## Identificação\nJoão, sexo masculino, programador.\n\n## Queixa Principal\nDor lombar.\n\n## História da Doença Atual\nPaciente relata dor na região lombar há 6 meses, com piora nos últimos 2 meses. A dor irradia ocasionalmente para o membro inferior direito até o joelho, acompanhada de formigamento. Nega fraqueza. Nega trauma ou queda prévia. Refere uso de dipirona e ibuprofeno com melhora parcial e retorno dos sintomas.\n\n## Medicações em Uso\n- Dipirona — dose não referida — uso atual.\n- Ibuprofeno — dose não referida — uso atual.\n\n## Antecedentes Pessoais\nNão referido na consulta.\n\n## Antecedentes Familiares\nNão referido na consulta.\n\n## Hábitos e Estilo de Vida\nTrabalha 10 horas por dia sentado. Não pratica atividade física.\n\n## Alergias\nNão referido na consulta.\n\n## Revisão de Sistemas\n- **Sistema musculoesquelético:** Dor lombar com irradiação para membro inferior direito e parestesia, conforme descrito na história da doença atual.\n- Demais aparelhos e sistemas: Não referidos na consulta.\n\n## Exame Físico\nLasègue à direita positivo a 60 graus.\n\n## Hipótese Diagnóstica\n- Lombalgia com componente radicular à direita, possivelmente secundária a compressão nervosa (sugestivo por irradiação, parestesia e Lasègue positivo).\n\n## Conduta\nSolicitada ressonância magnética da coluna lombar.\nDica\n\nA prévia usa uma transcrição de exemplo para simular o resultado. Nada é salvo até você clicar em “Salvar alterações”.\n\nExcluir modelo\nCancelar\nSalvar alterações",
+  "padraoAnamnese": {
+    "textareas": [],
+    "texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nModelos\nANAMNESE\n2\nAnamnese — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nAnamnese\nPADRÃO\nAtualizado 6 meses atrás\nEVOLUÇÃO\n2\nEvolução — Clínica Médica\nEM USO\nAtualizado 3 dias atrás\nEvolução (SOAP)\nPADRÃO\nAtualizado 6 meses atrás\nPRÉ-VISUALIZAÇÃOPADRÃO DO MÉDICO\nVariáveis @paciente e @medico são preenchidas automaticamente na consulta.\nRemover como padrão\nDuplicar\nEditar modelo\nEste é o seu modelo padrão para Anamnese. Todas as próximas consultas desse tipo usarão ele.\nAnamnese — Clínica Médica\nSEM CONTEÚDO\n\nClique em Editar modelo para começar. Use @paciente.nome, @paciente.cpf, @medico.crm e @data.hoje para inserir campos automáticos."
+  },
+  "paciente": {
+    "Contato": [
+      {
+        "tipo": "text",
+        "label": "Nome ou CPF..."
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Mais recentes",
+          "Nome (A-Z)",
+          "Nº de consultas"
+        ]
+      },
+      {
+        "tipo": "text",
+        "label": "Maria Silva Fernandes"
+      },
+      {
+        "tipo": "number",
+        "label": "45"
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Feminino",
+          "Masculino",
+          "Outro"
+        ]
+      },
+      {
+        "tipo": "text",
+        "label": "03/07/1980"
+      },
+      {
+        "tipo": "text",
+        "label": "000.000.000-00"
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Particular",
+          "Unimed",
+          "Bradesco Saúde",
+          "SulAmérica",
+          "Amil",
+          "Porto Seguro",
+          "NotreDame Intermédica",
+          "Hapvida",
+          "SUS"
+        ]
+      }
+    ],
+    "Contato_texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nPacientes\n1 no total · 1 ativos\nNovo paciente\nOrdenar por\nMais recentes\nNome (A-Z)\nNº de consultas\nR\nR\n? anos · Particular\n22/10\nPacientes\nR\nR\nR\n? anos\nFeminino\n—\nParticular\nLGPD · dados criptografados\nEditar\nGerar laudo\nNova consulta\nPA\n— mmHg\núltima: 22/10\nFC\n— bpm\nem repouso\nSPO₂\n— %\nem ar ambiente\nPESO\n— kg\nIMC —\nVISITAS\n1\ndesde 2026\nTimeline\n1\nDocumentos\n0\nLaudos\nMedicações\n0\nPrimeira consulta\n22 Out 26\nPrimeira consulta\n—\nCONTATO\nALERGIAS\nNenhuma registrada\nCONDIÇÕES\nNenhuma registrada\nMEDICAÇÕES\nNenhuma registrada\n?\nNovo paciente\nPreencha o cadastro. Você poderá editar depois.\n✕\n1\nCadastro\n2\nContato\n3\nClínico\nIDENTIFICAÇÃO\nNome completo\n*\nIdade\n*\nSexo\nFeminino\nMasculino\nOutro\nNascimento\nCPF\nConvênio\nParticular\nUnimed\nBradesco Saúde\nSulAmérica\nAmil\nPorto Seguro\nNotreDame Intermédica\nHapvida\nSUS\nAVATAR\nRascunho local\nCancelar\nCriar paciente",
+    "Clínico": [
+      {
+        "tipo": "text",
+        "label": "Nome ou CPF..."
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Mais recentes",
+          "Nome (A-Z)",
+          "Nº de consultas"
+        ]
+      },
+      {
+        "tipo": "text",
+        "label": "Maria Silva Fernandes"
+      },
+      {
+        "tipo": "number",
+        "label": "45"
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Feminino",
+          "Masculino",
+          "Outro"
+        ]
+      },
+      {
+        "tipo": "text",
+        "label": "03/07/1980"
+      },
+      {
+        "tipo": "text",
+        "label": "000.000.000-00"
+      },
+      {
+        "tipo": "select-one",
+        "opcoes": [
+          "Particular",
+          "Unimed",
+          "Bradesco Saúde",
+          "SulAmérica",
+          "Amil",
+          "Porto Seguro",
+          "NotreDame Intermédica",
+          "Hapvida",
+          "SUS"
+        ]
+      }
+    ],
+    "Clínico_texto": "Solara\nConsultas\nAgenda\nPacientes\nModelos\nAjustes\nNova consulta\nFR\nPacientes\n1 no total · 1 ativos\nNovo paciente\nOrdenar por\nMais recentes\nNome (A-Z)\nNº de consultas\nR\nR\n? anos · Particular\n22/10\nPacientes\nR\nR\nR\n? anos\nFeminino\n—\nParticular\nLGPD · dados criptografados\nEditar\nGerar laudo\nNova consulta\nPA\n— mmHg\núltima: 22/10\nFC\n— bpm\nem repouso\nSPO₂\n— %\nem ar ambiente\nPESO\n— kg\nIMC —\nVISITAS\n1\ndesde 2026\nTimeline\n1\nDocumentos\n0\nLaudos\nMedicações\n0\nPrimeira consulta\n22 Out 26\nPrimeira consulta\n—\nCONTATO\nALERGIAS\nNenhuma registrada\nCONDIÇÕES\nNenhuma registrada\nMEDICAÇÕES\nNenhuma registrada\n?\nNovo paciente\nPreencha o cadastro. Você poderá editar depois.\n✕\n1\nCadastro\n2\nContato\n3\nClínico\nIDENTIFICAÇÃO\nNome completo\n*\nIdade\n*\nSexo\nFeminino\nMasculino\nOutro\nNascimento\nCPF\nConvênio\nParticular\nUnimed\nBradesco Saúde\nSulAmérica\nAmil\nPorto Seguro\nNotreDame Intermédica\nHapvida\nSUS\nAVATAR\nRascunho local\nCancelar\nCriar paciente"
+  },
+  "novaEvolucao": "Resumo\nNOVO CADASTRO\n\nRevise antes de começar.\n\nPaciente\n—\nIdade / Sexo\n— · Feminino\nDocumento\nPrimeira consulta\nDuração estimada\n30–60 min\nÁudio não é armazenado.\nApós a transcrição, o áudio original é apagado do servidor automaticamente — em conformidade com a LGPD.",
+  "chamadas": [
+    {
+      "metodo": "GET",
+      "caminho": "/app",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/agenda",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/pacientes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/ajustes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/modelos",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/nova",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "POST",
+      "caminho": "/api/templates/preview",
+      "query": [],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": "application/json",
+      "corpoTamanho": 2449,
+      "status": 200,
+      "respContentType": "text/event-stream; charset=utf-8"
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/agenda",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/pacientes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/ajustes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/modelos",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/nova",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/agenda",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/pacientes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/ajustes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/modelos",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/nova",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/nova",
+      "query": [
+        "patient_id",
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/70a73fad-52e0-4664-a347-0b887778c20a",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/agenda",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/pacientes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/ajustes",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/modelos",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    },
+    {
+      "metodo": "GET",
+      "caminho": "/app/consulta/nova",
+      "query": [
+        "_rsc"
+      ],
+      "tipo": "fetch",
+      "nextAction": false,
+      "contentType": null,
+      "corpoTamanho": 0
+    }
+  ]
+}

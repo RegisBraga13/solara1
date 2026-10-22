@@ -1,0 +1,38 @@
+[
+  {
+    "pedido": "https://solara.doctorC:/Program Files/Git/app",
+    "final": "chrome-error://chromewebdata/",
+    "titulo": "solara.doctorc",
+    "cabecalhos": [
+      "H1 Não é possível acessar esse site"
+    ],
+    "botoes": [
+      "Recarregar",
+      "Saiba mais"
+    ],
+    "links": [
+      "#buttons",
+      "javascript:diagnoseErrors()"
+    ],
+    "campos": [],
+    "landmarks": []
+  },
+  {
+    "pedido": "https://solara.doctorC:/Program Files/Git/app/pacientes",
+    "final": "chrome-error://chromewebdata/",
+    "titulo": "solara.doctorc",
+    "cabecalhos": [
+      "H1 Não é possível acessar esse site"
+    ],
+    "botoes": [
+      "Recarregar",
+      "Saiba mais"
+    ],
+    "links": [
+      "#buttons",
+      "javascript:diagnoseErrors()"
+    ],
+    "campos": [],
+    "landmarks": []
+  }
+]

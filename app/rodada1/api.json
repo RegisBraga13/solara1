@@ -1,0 +1,489 @@
+[
+  {
+    "chave": "POST www.google.com/ccm/collect",
+    "status": [
+      200
+    ],
+    "query": [
+      "rcb",
+      "frm",
+      "apvc",
+      "auid",
+      "dt",
+      "tid",
+      "en",
+      "dl",
+      "scrsrc",
+      "rnd",
+      "navt",
+      "npa",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "tft",
+      "tfd",
+      "tids",
+      "fmt"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "POST www.google.com/rmkt/collect/{n}/",
+    "status": [
+      200
+    ],
+    "query": [
+      "random",
+      "cv",
+      "fst",
+      "fmt",
+      "bg",
+      "guid",
+      "async",
+      "en",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "u_w",
+      "u_h",
+      "url",
+      "rcb",
+      "frm",
+      "tiba",
+      "hn",
+      "npa",
+      "pscdl",
+      "auid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uamb",
+      "uam",
+      "uap",
+      "uapv",
+      "uaw",
+      "data",
+      "ept",
+      "gcp"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "POST ad.doubleclick.net/ccm/s/collect",
+    "status": [
+      204
+    ],
+    "query": [
+      "auid",
+      "gtm",
+      "fmt"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "GET solara.doctor/app/ajustes",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "GET solara.doctor/app",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "GET solara.doctor/app/agenda",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "GET www.googleadservices.com/pagead/conversion/{n}/",
+    "status": [
+      200
+    ],
+    "query": [
+      "random",
+      "cv",
+      "fst",
+      "fmt",
+      "bg",
+      "guid",
+      "async",
+      "en",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "u_w",
+      "u_h",
+      "url",
+      "rcb",
+      "gtm_ee",
+      "frm",
+      "tiba",
+      "npa",
+      "pscdl",
+      "auid",
+      "label",
+      "hn",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uamb",
+      "uam",
+      "uap",
+      "uapv",
+      "uaw",
+      "ec_mode",
+      "oid",
+      "oidsrc",
+      "ecsid",
+      "ecsid2",
+      "_tu",
+      "gcl_ctr",
+      "data",
+      "category",
+      "em",
+      "emd",
+      "ept",
+      "gap.last_random",
+      "gap.last_label"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": null
+  },
+  {
+    "chave": "GET solara.doctor/app/modelos",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "GET solara.doctor/app/pacientes",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/{n}/",
+    "status": [
+      302
+    ],
+    "query": [
+      "random",
+      "cv",
+      "fst",
+      "fmt",
+      "bg",
+      "guid",
+      "async",
+      "en",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "u_w",
+      "u_h",
+      "url",
+      "rcb",
+      "gtm_ee",
+      "frm",
+      "tiba",
+      "npa",
+      "pscdl",
+      "auid",
+      "label",
+      "hn",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uamb",
+      "uam",
+      "uap",
+      "uapv",
+      "uaw",
+      "ec_mode",
+      "oidsrc",
+      "ecsid",
+      "ecsid2",
+      "_tu",
+      "gcl_ctr",
+      "data",
+      "category",
+      "em",
+      "emd",
+      "ept",
+      "ct_cookie_present",
+      "eoid",
+      "crd",
+      "cerd",
+      "fsk",
+      "pscrd",
+      "gap.last_random",
+      "gap.last_label"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "GET www.google.com/pagead/1p-conversion/{n}/",
+    "status": [
+      302
+    ],
+    "query": [
+      "random",
+      "cv",
+      "fst",
+      "fmt",
+      "bg",
+      "guid",
+      "async",
+      "en",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "u_w",
+      "u_h",
+      "url",
+      "rcb",
+      "gtm_ee",
+      "frm",
+      "tiba",
+      "npa",
+      "pscdl",
+      "auid",
+      "label",
+      "hn",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uamb",
+      "uam",
+      "uap",
+      "uapv",
+      "uaw",
+      "ec_mode",
+      "oidsrc",
+      "ecsid",
+      "ecsid2",
+      "_tu",
+      "gcl_ctr",
+      "data",
+      "category",
+      "em",
+      "emd",
+      "ept",
+      "ct_cookie_present",
+      "eoid",
+      "crd",
+      "cerd",
+      "fsk",
+      "pscrd",
+      "is_vtc",
+      "cid",
+      "gap.last_random",
+      "gap.last_label"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "GET www.google.com.br/pagead/1p-conversion/{n}/",
+    "status": [
+      200
+    ],
+    "query": [
+      "random",
+      "cv",
+      "fst",
+      "fmt",
+      "bg",
+      "guid",
+      "async",
+      "en",
+      "gtm",
+      "gcd",
+      "dma",
+      "tag_exp",
+      "u_w",
+      "u_h",
+      "url",
+      "rcb",
+      "gtm_ee",
+      "frm",
+      "tiba",
+      "npa",
+      "pscdl",
+      "auid",
+      "label",
+      "hn",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uamb",
+      "uam",
+      "uap",
+      "uapv",
+      "uaw",
+      "ec_mode",
+      "oidsrc",
+      "ecsid",
+      "ecsid2",
+      "_tu",
+      "gcl_ctr",
+      "data",
+      "category",
+      "em",
+      "emd",
+      "ept",
+      "ct_cookie_present",
+      "eoid",
+      "crd",
+      "cerd",
+      "fsk",
+      "is_vtc",
+      "cid",
+      "ipr",
+      "pscrd",
+      "ezwbk",
+      "gap.last_random",
+      "gap.last_label"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  },
+  {
+    "chave": "GET solara.doctor/app/consulta/nova",
+    "status": [
+      200
+    ],
+    "query": [
+      "_rsc"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": [
+      "rsc",
+      "next-router-state-tree",
+      "next-url",
+      "x-deployment-id"
+    ]
+  },
+  {
+    "chave": "POST www.google-analytics.com/g/collect",
+    "status": [
+      204
+    ],
+    "query": [
+      "v",
+      "tid",
+      "gtm",
+      "_p",
+      "gcd",
+      "npa",
+      "dma",
+      "_eu",
+      "cid",
+      "frm",
+      "ngs",
+      "pscdl",
+      "rcb",
+      "sr",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "_s",
+      "tag_exp",
+      "sid",
+      "sct",
+      "seg",
+      "dl",
+      "dt",
+      "en",
+      "_ee",
+      "tfd",
+      "ae",
+      "epn.percent_scrolled",
+      "_et"
+    ],
+    "resposta": null,
+    "corpo": null,
+    "headers": []
+  }
+]
